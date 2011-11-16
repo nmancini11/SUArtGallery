@@ -3,12 +3,36 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title></title>
-<link href="_css/mobile.css" rel="stylesheet" type="text/css">
+<link href="_css/gallery.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="_js/jquery.js"></script>
+<script type="text/javascript" src="_js/flexslider.js"></script>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
 </head>
 
 <body>
 <div id='loading'><img src="images/loader.gif"></img></div>
+
+<div id="content">
+</div>
+
+<div class="flexslider">
+	<ul class="slides">
+        <li>
+            <img src="demo-stuff/inacup_samoa.jpg" />
+            <p class="flex-caption">Captions and cupcakes. Winning combination.</p>
+        </li>
+        <li>
+            <a href="http://flex.madebymufffin.com"><img src="demo-stuff/inacup_pumpkin.jpg" /></a>
+            <p class="flex-caption">This image is wrapped in a link!</p>
+        </li>
+        <li>
+            <img src="demo-stuff/inacup_donut.jpg" />
+        </li>
+        <li>
+            <img src="demo-stuff/inacup_vanilla.jpg" />
+        </li>
+	</ul>
+</div>
 
 <script>$('#loading').hide()</script>
 </body>
