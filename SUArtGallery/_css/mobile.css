@@ -1,6 +1,6 @@
 .left
 {
-float:left	
+float:left
 }
 
 .right
@@ -11,6 +11,7 @@ float:right
 body 
 {
 font-family: Century Gothic, sans-serif;
+background-color: #fff;
 text-align: center;
 margin:0;
 }
@@ -27,7 +28,7 @@ opacity:0.8;
 }
 
 #navigation
-{
+{	
 float:right;
 }
 
@@ -40,26 +41,21 @@ margin: 0 px;
 #navigation ul li
 {
 display: block;
-
 }
 
 #content
 {
 margin: 0px;
-width: 95%;
-background-color: rgba(255, 0, 0, 0.5);
 }
 
 #content h1
 {
-background-color: rgba(0, 255, 0, 0.8);
-border-bottom: 1px solid #666;
-
-margin-top:0px;
+background-color: rgba(255, 0, 0, 0.5);
+border-bottom:1px solid #666;;
 color: #222;
 display: block;
 font-size: 1.4em;
-padding: 10px 20px 10px 20px;
+padding: 12px 0px 10px 20px;
 text-align: left;
 text-decoration: none;
 }
@@ -78,16 +74,29 @@ text-align: left;
 margin-left:20px;
 padding:0; 
 width:80%;
-height:2px;
+height:1px;
 background-color:#000;
 overflow:hidden;
 }
 
 #content p
 {
-margin-left:20px;
-font-size: 1em;
 text-align: left;
+margin:5px 0px 10px 20px;
+font-size: 1em;
+}
+
+#panel
+{
+width:100%;
+position:fixed;
+bottom:0px;
+}
+
+#panel img
+{
+display:block;
+padding:5px;
 }
 
 
