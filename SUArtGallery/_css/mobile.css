@@ -35,7 +35,6 @@ float:right;
 #navigation ul
 {
 list-style: none;
-margin: 0 px;
 }
 
 #navigation ul li
@@ -73,7 +72,7 @@ text-align: left;
 {
 margin-left:20px;
 padding:0; 
-width:80%;
+width:75%;
 height:1px;
 background-color:#000;
 overflow:hidden;
